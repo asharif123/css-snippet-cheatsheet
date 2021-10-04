@@ -47,6 +47,7 @@ header p {
     box-shadow: 0 0 10px var(--color-primary);
 }
 
+
 .css-section-card h1 {
     font-family: var(--font-primary);
     color: var(--color-primary);
@@ -61,10 +62,10 @@ header p {
 
 }
 
-
 .css-section-card-summary {
     font-family: var(--font-primary);
     color: var(--color-primary);
+    margin-left: 5%;
 }
 
 .css-section-card-information {
@@ -78,3 +79,29 @@ header p {
     font-family: var(--secondary-font);
     margin-left: 10%;
 }
+
+/****** footer section ************/
+footer {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+    text-align: center;
+}
+
+/* add heart emoji */
+#footer-text::before {
+    content: '\2764';
+}
+
+/* adding responsiveness! */
+@media only screen and (max-width: 1030px) {
+    .css-section-card {
+        width: 43%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .css-section-card {
+        width: 100%;
+        margin-top: 15%;
+    }
+  }
