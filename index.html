@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Snippet Cheatsheet</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+    </header>
+    <main>
+        <section id="css-section">
+
+            <section class="css-section-card">
+                <h1>Flexbox Row</h1>
+                <p class="css-section-card-summary">Use these three properties to create a Flexbox row layout</p>
+                <article>
+                    <p class="css-section-card-information">.row {</p>
+                    <p class="css-section-card-further-information">display: flex</p>
+                    <p class="css-section-card-further-information">flex-direction: row;</p>
+                    <p class="css-section-card-further-information">flex-wrap: wrap;</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+            <section class="css-section-card">
+                <h1>Flexbox Column</h1>
+                <p class="css-section-card-summary">Use this to create a Flexbox column layout.</p>
+                <article>
+                    <p class="css-section-card-information">.column {</p>
+                    <p class="css-section-card-further-information">display: flex</p>
+                    <p class="css-section-card-further-information">flex-direction: column;</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+            <section class="css-section-card">
+                <h1>CSS Grid Layout</h1>
+                <p class="css-section-card-summary">Build a 12-column layout using CSS Grid.</p>
+                <article>
+                    <p class="css-section-card-information">.grid {</p>
+                    <p class="css-section-card-further-information">display: grid</p>
+                    <p class="css-section-card-further-information">width: 100%;</p>
+                    <p class="css-section-card-further-information">grid-template-columns:</p>
+                    <p class="css-section-card-information">repeat(12, 1fr);</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+            <section class="css-section-card">
+                <h1>Linear Gradients</h1>
+                <p class="css-section-card-summary">This will create a background linear gradient from top to bottom.</p>
+                <article>
+                    <p class="css-section-card-information">.linear-gradient-background</p>
+                    <p class="css-section-card-information">{</p>
+                    <p class="css-section-card-further-information">rgba(232, 102. 236,</p>
+                    <p class="css-section-card-information">0.3) 0%,</p>
+                    <p class="css-section-card-further-information">rgba(232, 102. 236,</p>
+                    <p class="css-section-card-information">0.6) 100%,</p>
+                    <p class="css-section-card-further-information">);</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+            <section class="css-section-card">
+                <h1>Box Transition Glow</h1>
+                <p class="css-section-card-summary">Use transition and box shadows to glow on hover.</p>
+                <article>
+                    <p class="css-section-card-information">.code-card .card-header{</p>
+                    <p class="css-section-card-further-information">border-radius: 8px;</p>
+                    <p class="css-section-card-further-information">transition: all 0.5s</p>
+                    <p class="css-section-card-information">ease-in-out;</p>
+                    <p class="css-section-card-information">}</p>
+                    <p class="css-section-card-information">.code-card:hover,</p>
+                    <p class="css-section-card-information">.code-card:hover .card-</p>
+                    <p class="css-section-card-information">header {</p>
+                    <p class="css-section-card-further-information">box-shadow: inset 0px 0px</p>
+                    <p class="css-section-card-information">8px rgba(232, 102, 236, 1),</p>
+                    <p class="css-section-card-information">0 0 15px rgba(232, 102,</p>
+                    <p class="css-section-card-information">236, 1);</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+            <section class="css-section-card">
+                <h1>Overlay Card with Title</h1>
+                <p class="css-section-card-summary">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+                <article>
+                    <p class="css-section-card-information">.card-header{</p>
+                    <p class="css-section-card-further-information">position: relative;</p>
+                    <p class="css-section-card-further-information">margin-top: -20px;</p>
+                    <p class="css-section-card-information">}</p>
+                </article>
+            </section>
+
+
+
+
+
+        </section>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
