@@ -92,7 +92,7 @@ footer {
     content: '\2764';
 }
 
-/* adding responsiveness! */
+/* adding responsiveness to make website adaptable */
 @media only screen and (max-width: 1030px) {
     .css-section-card {
         width: 43%;
